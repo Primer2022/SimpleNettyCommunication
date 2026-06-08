@@ -9,7 +9,7 @@ import io.netty.handler.codec.LineBasedFrameDecoder;
 import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
 import io.netty.util.CharsetUtil;
-import ru.primer.server.util.Logger;
+import ru.primer.api.util.Logger;
 
 import java.net.InetSocketAddress;
 

@@ -1,10 +1,9 @@
 package ru.primer.server.application;
 
+import ru.primer.api.util.Logger;
 import ru.primer.server.network.NettyServer;
 import ru.primer.server.registrar.CommandRegistrar;
 import ru.primer.server.service.CommandHandlerService;
-import ru.primer.server.util.Logger;
-
 public final class ServerApplication {
 
     private final CommandHandlerService commandService;

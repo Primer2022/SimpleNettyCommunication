@@ -1,9 +1,9 @@
-package ru.primer.client.command.impl;
+package ru.primer.client.command;
 
-import ru.primer.client.command.CommandHandler;
-import ru.primer.client.model.Message;
+import ru.primer.api.command.CommandHandler;
+import ru.primer.api.model.Message;
 import ru.primer.client.network.NettyClient;
-import ru.primer.client.util.Logger;
+import ru.primer.api.util.Logger;
 
 import java.util.Arrays;
 

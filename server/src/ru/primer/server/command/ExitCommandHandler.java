@@ -1,8 +1,8 @@
-package ru.primer.server.command.impl;
+package ru.primer.server.command;
 
+import ru.primer.api.command.CommandHandler;
+import ru.primer.api.model.Message;
 import ru.primer.server.application.ServerApplication;
-import ru.primer.server.command.CommandHandler;
-import ru.primer.server.model.Message;
 
 public final class ExitCommandHandler extends CommandHandler {
 

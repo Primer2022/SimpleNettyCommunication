@@ -1,9 +1,9 @@
-package ru.primer.client.command.impl;
+package ru.primer.client.command;
 
+import ru.primer.api.command.CommandHandler;
+import ru.primer.api.model.Message;
 import ru.primer.client.application.ClientApplication;
-import ru.primer.client.command.CommandHandler;
-import ru.primer.client.model.Message;
-import ru.primer.client.util.Logger;
+import ru.primer.api.util.Logger;
 
 public final class HelpCommandHandler extends CommandHandler {
 

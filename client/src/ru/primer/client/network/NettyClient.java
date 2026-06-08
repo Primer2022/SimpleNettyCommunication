@@ -8,10 +8,8 @@ import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
 import io.netty.handler.timeout.IdleStateHandler;
-import ru.primer.client.model.Message;
-import ru.primer.client.util.Logger;
+import ru.primer.api.util.Logger;
 
-import java.util.Arrays;
 import java.util.concurrent.TimeUnit;
 
 public final class NettyClient {

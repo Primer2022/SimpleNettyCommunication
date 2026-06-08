@@ -3,7 +3,7 @@ package ru.primer.client.application;
 import ru.primer.client.network.NettyClient;
 import ru.primer.client.registrar.CommandRegistrar;
 import ru.primer.client.service.CommandHandlerService;
-import ru.primer.client.util.Logger;
+import ru.primer.api.util.Logger;
 
 public final class ClientApplication {
 

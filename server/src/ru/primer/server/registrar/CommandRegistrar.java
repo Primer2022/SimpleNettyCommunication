@@ -1,8 +1,8 @@
 package ru.primer.server.registrar;
 
 import ru.primer.server.application.ServerApplication;
-import ru.primer.server.command.impl.ExitCommandHandler;
-import ru.primer.server.command.impl.HelpCommandHandler;
+import ru.primer.server.command.ExitCommandHandler;
+import ru.primer.server.command.HelpCommandHandler;
 import ru.primer.server.service.CommandHandlerService;
 
 public final class CommandRegistrar {

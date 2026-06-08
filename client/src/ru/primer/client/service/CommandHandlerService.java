@@ -1,7 +1,8 @@
 package ru.primer.client.service;
 
-import ru.primer.client.command.CommandHandler;
-import ru.primer.client.model.Message;
+
+import ru.primer.api.command.CommandHandler;
+import ru.primer.api.model.Message;
 
 import java.util.ArrayList;
 import java.util.List;

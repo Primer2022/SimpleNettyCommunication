@@ -4,7 +4,7 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 import io.netty.handler.timeout.IdleState;
 import io.netty.handler.timeout.IdleStateEvent;
-import ru.primer.client.util.Logger;
+import ru.primer.api.util.Logger;
 
 public class ClientHandler extends SimpleChannelInboundHandler<String> {
 

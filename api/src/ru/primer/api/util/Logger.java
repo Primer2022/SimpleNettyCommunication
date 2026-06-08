@@ -1,4 +1,4 @@
-package ru.primer.client.util;
+package ru.primer.api.util;
 
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;

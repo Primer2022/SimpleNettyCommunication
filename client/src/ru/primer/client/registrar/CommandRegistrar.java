@@ -1,10 +1,10 @@
 package ru.primer.client.registrar;
 
 import ru.primer.client.application.ClientApplication;
-import ru.primer.client.command.impl.ConnectCommandHandler;
-import ru.primer.client.command.impl.ExitCommandHandler;
-import ru.primer.client.command.impl.HelpCommandHandler;
-import ru.primer.client.command.impl.MessageCommandHandler;
+import ru.primer.client.command.ConnectCommandHandler;
+import ru.primer.client.command.ExitCommandHandler;
+import ru.primer.client.command.HelpCommandHandler;
+import ru.primer.client.command.MessageCommandHandler;
 import ru.primer.client.network.NettyClient;
 import ru.primer.client.service.CommandHandlerService;
 

@@ -1,4 +1,4 @@
-package ru.primer.server.util;
+package ru.primer.api.util;
 
 public enum LoggerType {
 
